@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Emacs学习笔记（1) | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+c-h t">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Emacs学习笔记（1)">
+<meta property="og:url" content="http://yoursite.com/2015/08/17/hello-world/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+c-h t">
+<meta property="og:updated_time" content="2015-08-17T14:13:27.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Emacs学习笔记（1)">
+<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+c-h t">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  
+  
+    <link rel="stylesheet" href="/scrollLoading/style.css" type="text/css">
+  
+  
+
+
+  
+
+  
+    <link href='//fonts.useso.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo"></a>
+          </h1>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/">主页</a></li>
+              
+                    
+                  
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="/about/index.html">关于</a></li>
+              
+            </ul>
+            <nav id="sub-nav">
+              <div id="search-form-wrap">
+                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header">未分类</h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-hello-world" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      Emacs学习笔记（1)
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="/2015/08/17/hello-world/" class="article-date">
+  <time datetime="2015-08-17T14:13:27.000Z" itemprop="datePublished">2015-08-17</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="c-h_t的笔记">c-h t的笔记</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">c<span class="operator">-l</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">c/<span class="keyword">m</span>-v       	移动到下一页/返回到上一页</span><br><span class="line">c-p/<span class="keyword">n</span>/b/f		移动到下一行/上一行/上一个字符/下一个字符</span><br><span class="line"><span class="keyword">m</span>-f/b			移动到单词的首尾</span><br><span class="line">c-a/<span class="keyword">e</span>			移动到行的首尾</span><br><span class="line"><span class="keyword">m</span>-a/<span class="keyword">e</span>			移动到内容的首尾</span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">m</span>-&lt;/&gt;						移动到内容首尾</span><br><span class="line">c-<span class="keyword">u</span> [number] 	命令 		连续执行命令number次</span><br><span class="line">c-<span class="keyword">g</span>							停止执行时间太长的命令</span><br><span class="line">c-x c-<span class="keyword">l</span> 					disable命令</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">c-x 1		打开第一个窗口，关闭其它所有窗口</span><br><span class="line">c-u <span class="operator">0 <span class="keyword">c</span>-<span class="keyword">l</span></span><br><span class="line"><span class="keyword">c</span>-h <span class="keyword">k</span> <span class="keyword">c</span>-<span class="keyword">f</span></span><br><span class="line"><span class="keyword">c</span>-u <span class="number">8</span> *	连续插入<span class="number">8</span>个星号</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;del&gt;		逐个删除光标前面的字符</span><br><span class="line">c-<span class="keyword">d</span>			逐个删除光标后面的字符</span><br><span class="line"><span class="keyword">m</span>-&lt;del&gt;	逐个删除光标前面的单词</span><br><span class="line"><span class="keyword">m</span>-<span class="keyword">d</span>			逐个删除光标后面的单词</span><br><span class="line">c-k			删除光标后面的字符到行尾</span><br><span class="line"><span class="keyword">m</span>-k			删除光标后面的字符到句尾</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">c</span>-&lt;space&gt; <span class="built_in">c</span>-w		删除一定区域的字符</span><br><span class="line"><span class="built_in">c</span>-y					粘贴<span class="built_in">c</span>-k删除的内容</span><br><span class="line">m-y					转帖历史<span class="built_in">c</span>-k删除的内容</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">c</span>-<span class="number">_</span>					undo</span><br><span class="line"><span class="built_in">c</span>-x <span class="built_in">c</span>-f 			查找文件</span><br><span class="line"><span class="built_in">c</span>-x <span class="built_in">c</span>-s			保存buffer到文件</span><br><span class="line"><span class="built_in">c</span>-x <span class="built_in">c</span>-b			列出buffer</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">c</span>-x <span class="built_in">c</span>-s				保存文件</span><br><span class="line"><span class="built_in">c</span>-x s				保存buffer</span><br><span class="line"><span class="built_in">c</span>-x <span class="built_in">c</span>-b				list buffer</span><br><span class="line"><span class="built_in">c</span>-x b				切换buffer</span><br><span class="line"><span class="built_in">c</span>-x <span class="built_in">c</span>-<span class="built_in">c</span>				quit</span><br><span class="line"><span class="built_in">c</span>-x u				undo</span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">m</span>-x repl s&lt;<span class="keyword">return</span>&gt;	替换字符串操作</span><br><span class="line"><span class="keyword">m</span>-x recover-<span class="keyword">file</span> &lt;<span class="keyword">return</span>&gt;	恢复文件</span><br></pre></td></tr></table></figure>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">m-x <span class="type">text</span>-mode &lt;<span class="constant">return</span>&gt;	切换编辑模式为<span class="type">text</span>-mode</span><br><span class="line">c-s		向后搜索</span><br><span class="line">c-r		向前搜素</span><br></pre></td></tr></table></figure>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://yoursite.com/2015/08/17/hello-world/" data-id="cidjkn7fl0004axunssa42kdg" class="article-share-link">分享到</a>
+        
+        
+      </footer>
+    </div>
+  </article>
+  
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>关注我 :</p>
+    <ul class="social-links">
+      
+        <li><a class="social-tooltip" title="twitter" href="/" target="_blank"><i class="icon fa fa-twitter"></i></a></li>
+      
+        <li><a class="social-tooltip" title="facebook" href="/" target="_blank"><i class="icon fa fa-facebook"></i></a></li>
+      
+        <li><a class="social-tooltip" title="google-plus" href="/" target="_blank"><i class="icon fa fa-google-plus"></i></a></li>
+      
+        <li><a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank"><i class="icon fa fa-github"></i></a></li>
+      
+        <li><a class="social-tooltip" title="weibo" href="/" target="_blank"><i class="icon fa fa-weibo"></i></a></li>
+      
+        <li><a class="social-tooltip" title="rss" href="/" target="_blank"><i class="icon fa fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/08/20/LDA/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <p class="article-nav-title">
+        
+          LDA
+        
+      </p>
+      <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+  
+  
+    <a href="/2015/08/11/my-new-post/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <p class="article-nav-title">明星衣橱缓存系统进化</p>
+      <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+    </a>
+  
+</nav>
+
+  
+  <div class="widgets-container">
+    
+      
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/08/20/LDA/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/08/20/LDA/" class="title">LDA</a></p>
+              <p class="item-date"><time datetime="2015-08-20T02:10:34.000Z" itemprop="datePublished">2015-08-20</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/08/17/hello-world/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/08/17/hello-world/" class="title">Emacs学习笔记（1)</a></p>
+              <p class="item-date"><time datetime="2015-08-17T14:13:27.000Z" itemprop="datePublished">2015-08-17</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="/2015/08/11/my-new-post/" class="thumbnail">
+  
+    <span style="background-image:url(https://cdn.monetizejs.com/resources/button-32.png
+)" alt="明星衣橱缓存系统进化" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"></p>
+              <p class="item-title"><a href="/2015/08/11/my-new-post/" class="title">明星衣橱缓存系统进化</a></p>
+              <p class="item-date"><time datetime="2015-08-11T07:07:23.000Z" itemprop="datePublished">2015-08-11</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">3</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis-memcached/">redis, memcached</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-float">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/redis-memcached/" style="font-size: 10px;">redis, memcached</a>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">链接</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="http://hexo.io">Hexo</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</aside>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="/" class="logo"></a>
+        </h1>
+        <p>&copy; 2015 John Doe</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+
+  <script src="/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
+  <script src="/scrollLoading/main.js" type="text/javascript"></script>
+
+
+<script src="/js/html-patch.js" type="text/javascript"></script>
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
